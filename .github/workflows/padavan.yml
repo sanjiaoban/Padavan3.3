@@ -53,7 +53,7 @@ jobs:
     - name: Build Firmware
       env:
         #此处为需要编译的型号
-        TNAME: "ZCM-MT7688"
+        TNAME: "YK-L1"
       run: |
         cd /opt/rt-n56u/trunk
         #替换掉文件中的 ^M
